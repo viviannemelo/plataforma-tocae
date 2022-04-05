@@ -72,7 +72,11 @@ header > .menu > nav > a:nth-child(3){
 .info-intro > .botao-intro{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 5px;
+
+    position: relative;
+    left: 40px;
+    top: -20px;
 }
 
 .botao-intro > a > img{
@@ -114,6 +118,8 @@ header > .menu > nav > a:nth-child(3){
 .container-box > p{
     font-size: 18px;
     color: #6B7280;
+    width: 70%;
+    text-align: center;
 
     margin-top: 22px;
     margin-bottom: 70px;
@@ -198,4 +204,95 @@ header > .menu > nav > a:nth-child(3){
 }
 /**/
 
-/*infos-extras*/
+/*infos*/
+.container-infos{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 80px;
+    padding: 0 4%;
+}
+
+.texto{
+    float: left;
+    width: calc(100% / 3);
+    position: relative;
+    left: 30px;
+}
+
+.container-infos > .texto > h3 {
+    font-size: 13px;
+    color: #7714F5;
+    margin-bottom: 10px;
+}
+
+.texto > h2{
+    font-size: 32px;
+    color: #343A40;
+}
+
+.texto > p {
+    font-size: 18px;
+    color: #6B7280;
+    margin-top: 25px;
+}
+
+.mosaico-infos{
+    width: calc(100% - 33.3%);
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    top: -225px;
+}
+
+.infos{
+    width: 350px;
+    margin: 12px;
+    position: relative;
+    left: 35px;
+}
+
+.infos > img{
+    position: relative;
+    top: 30px;
+    right: 40px;
+}
+
+.infos > h3{
+    font-size: 18px;
+    color: #343A40;
+}
+
+.infos > p{
+    font-size: 16px;
+    color: #6B7280;
+    margin-top: 10px;
+}
+/**/
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5%;
+    padding-bottom: 60px;
+    
+    font-family: 'Inter', sans-serif;
+}
+
+.direitos-autorais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    color: #868E96;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 25px;
+}
