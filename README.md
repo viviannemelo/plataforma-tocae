@@ -5,3 +5,16 @@ Projeto desenvolvido para fins de estudo utilizando HTML e CSS, simulando uma p√
 <img src="" />
 
 Design UX: Gabriel Santos
+
+## Skills desenvolvidas
+
+* Desenvolvimento com HTML5 e CSS3;
+* Construir uma p√°gina do zero;
+* Seguir design produzido no Figma;
+* Flex-box e design responsivo;
+
+## Ferramentas utilizadas
+
+* HTML5
+* CSS3
+* Figma
